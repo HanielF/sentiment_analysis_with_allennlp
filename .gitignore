@@ -130,3 +130,7 @@ dmypy.json
 
 # Project ignore
 aclImdb/
+
+# model files
+model_*
+allennlp_classification/

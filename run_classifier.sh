@@ -28,4 +28,4 @@ if [ ! -f $config ];then
   exit
 fi
 
-allennlp train $config --serialization-dir $serial_dir --include-package my_text_classifier
+allennlp train $config --serialization-dir $serial_dir --include-package my_classifier
